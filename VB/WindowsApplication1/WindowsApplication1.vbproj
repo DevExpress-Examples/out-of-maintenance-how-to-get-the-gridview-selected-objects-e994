@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -28,25 +28,26 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1">
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.2.6\DevExpress.Data.v8.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1">
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.2.6\DevExpress.Utils.v8.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1">
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.2.6\DevExpress.XtraEditors.v8.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.2.6\DevExpress.XtraGrid.v8.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1">
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.2.6\DevExpress.XtraLayout.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A">
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
